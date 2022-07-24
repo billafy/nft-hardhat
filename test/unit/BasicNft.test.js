@@ -6,7 +6,7 @@ const { developmentChains } = require("../../helper-hardhat.config.js");
 	? describe.skip
 	: describe("BasicNft", async () => {
 			const TOKEN_URI =
-				"https://ipfs.io/ipfs/QmbNxJn7baSogzKboQHEpdm4uZKnCZ7FSJhzq9pGFeaGmn?filename=bhorang.json";
+				"https://ipfs.io/ipfs/bafkreic4owxijq2upy2za5uf3d7rg52kali6gxpf3v4eam3t4ry5lthlxe?filename=bhorang.json";
 			let basicNft, deployer;
 
 			beforeEach(async () => {

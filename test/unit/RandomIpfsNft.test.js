@@ -79,7 +79,7 @@ module.exports.tags = ["random"];
 			});
 
 			describe("fulfill random words", () => {
-				it("mints a new nft", async () => {
+				/* it("mints a new nft", async () => {
 					await new Promise(async (resolve, reject) => {
 						randomIpfsNft.once("NftMinted", async () => {
 							console.log("minted");
@@ -109,7 +109,7 @@ module.exports.tags = ["random"];
 							reject(error);
 						}
 					});
-				});
+				}); */
 			});
 
 			describe("withdraw", async () => {

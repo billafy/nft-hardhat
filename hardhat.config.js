@@ -10,7 +10,16 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY || "123";
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "123";
 
 module.exports = {
-	solidity: "0.8.9",
+	solidity: {
+		compilers: [
+			{
+				version: "0.8.9",
+			},
+			{
+				version: "0.6.6",
+			},
+		],
+	},
 	defaultNetwork: "hardhat",
 	networks: {
 		hardhat: {
